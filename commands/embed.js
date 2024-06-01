@@ -8,12 +8,12 @@ module.exports = {
     .setColor(0x0099FF)
     .setTitle('This is Title')
     .setDescription('Some description here')
-    .setThumbnail('https://media.discordapp.net/attachments/1071041593961894009/1242738220131684352/Picsart_24-05-22_14-02-57-001.jpg?ex=664eeda8&is=664d9c28&hm=ffeb622f79bd63d78d1153fc0aea288bb5fac0866d4fe0460467aff997e31b54&=&format=webp&width=1390&height=1098')
+    .setThumbnail('https://cdn.discordapp.com/attachments/1240640439309176862/1246525920412569610/Screenshot_20240527_090327_Chrome.jpg?ex=665cb53a&is=665b63ba&hm=29730eedb236b2e415d5be9491676b010769eb60407e877e530969a200ad1486&')
     .addFields(
       { name: 'Field Name ', value: 'Some value here' },
        { name: 'YuongzMin', value: 'Subscribe to my channel' },
     )
-    .setImage('https://media.discordapp.net/attachments/1071041593961894009/1242738220131684352/Picsart_24-05-22_14-02-57-001.jpg?ex=664eeda8&is=664d9c28&hm=ffeb622f79bd63d78d1153fc0aea288bb5fac0866d4fe0460467aff997e31b54&=&format=webp&width=1390&height=1098')
+    .setImage('https://cdn.discordapp.com/attachments/1240293887394844792/1246525470900748360/a_e93a7b5ef06817a7d10cf9029f45b7c5.gif?ex=665cb4cf&is=665b634f&hm=854d2d03b55c67eb7d7c679f05bf8ef63dd481401c03e40dcbc20faaf26f9d31&')
     .setTimestamp()
     .setFooter({ text: 'Some footer text here' });
 
