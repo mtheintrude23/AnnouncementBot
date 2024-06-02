@@ -74,7 +74,7 @@ client.once('ready', () => {
   setTimeout(() => {
     console.log('\x1b[32m%s\x1b[0m', `|    🎯 Activity sucessfully set!`);
     client.user.setPresence({
-      activities: [{ name: `Type $help for Info`, type: ActivityType.Custom }],
+      activities: [{ name: `YuongzMin On Top👑 Type y!help `, type: ActivityType.Custom }],
       status: 'dnd',
     });
   }, 2000); 
