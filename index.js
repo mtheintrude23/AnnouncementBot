@@ -14,7 +14,7 @@ const client = new Client({
   }),
 });
 
-const prefix = '$';
+const prefix = 'y!';
 client.commands = new Map(); 
 
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
