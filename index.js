@@ -14,7 +14,7 @@ const client = new Client({
   }),
 });
 
-const prefix = 'y!';
+const prefix = 'd!';
 client.commands = new Map(); 
 
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
@@ -74,7 +74,7 @@ client.once('ready', () => {
   setTimeout(() => {
     console.log('\x1b[32m%s\x1b[0m', `|    🎯 Activity sucessfully set!`);
     client.user.setPresence({
-      activities: [{ name: `YuongzMin On Top👑 Type y!help `, type: ActivityType.Custom }],
+      activities: [{ name: `Announcement Phi Phai `, type: ActivityType.Playing }],
       status: 'dnd',
     });
   }, 2000); 
